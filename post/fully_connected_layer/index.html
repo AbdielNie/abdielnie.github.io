@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='https://abdielnie.github.io/css/light.css' />
     <link rel="stylesheet" href='https://abdielnie.github.io/css/dark.css' />
     <link rel="stylesheet" href='https://abdielnie.github.io/css/syntax.css' />
-    <title> - AbdielNie&#39;s blog</title>
+    <title>Fully_Connected_Layer - AbdielNie&#39;s blog</title>
     
     <link rel="icon" type="image/x-icon" href='/images/github.png'>
     
@@ -18,21 +18,21 @@
 
     
     <meta name="description"
-  content="I&amp;rsquo;m Liangyu Nie, Year 3 bachelor of computer science student at RMIT University
-  🔭 I’m currently working on - GCN &#43; Transformer music to dance.  📫 How to reach me: Email me: abdielnie@gmail.com  Github Stats: Most Language I used 
-Nice to meet you! " />
+  content="Fully Connected Layer全连接层 全连接层一般在卷积神经网络最后，它会将神经网络输出的二维特征转为一维向量 举例： 输入一个28×28的灰度图像 经过了convolution layer和pooling之后输出20个12×12的图像
+如果将这20个12×12的图像放入全连接层 就会变成一个1×100的一维向量
+全连接层的作用： 在整个卷积神经网络中是一个filter，将学到的特征表示映射到样本的标记空间中，高度提取特征 方便最后的filter和回归 全连接的缺点： 参数亢余会导致降低训练速度，容易overfit" />
 <meta name="keywords"
   content='blog' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://abdielnie.github.io/readme/" />
+<link rel="canonical" href="https://abdielnie.github.io/post/fully_connected_layer/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content=" - AbdielNie&#39;s blog" />
+<meta name="twitter:title" content="Fully_Connected_Layer - AbdielNie&#39;s blog" />
 <meta name="twitter:description"
-  content="I&amp;rsquo;m Liangyu Nie, Year 3 bachelor of computer science student at RMIT University
-  🔭 I’m currently working on - GCN &#43; Transformer music to dance.  📫 How to reach me: Email me: abdielnie@gmail.com  Github Stats: Most Language I used 
-Nice to meet you! " />
+  content="Fully Connected Layer全连接层 全连接层一般在卷积神经网络最后，它会将神经网络输出的二维特征转为一维向量 举例： 输入一个28×28的灰度图像 经过了convolution layer和pooling之后输出20个12×12的图像
+如果将这20个12×12的图像放入全连接层 就会变成一个1×100的一维向量
+全连接层的作用： 在整个卷积神经网络中是一个filter，将学到的特征表示映射到样本的标记空间中，高度提取特征 方便最后的filter和回归 全连接的缺点： 参数亢余会导致降低训练速度，容易overfit" />
 <meta name="twitter:site" content="https://abdielnie.github.io/" />
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image"
@@ -40,17 +40,19 @@ Nice to meet you! " />
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content=" - AbdielNie&#39;s blog">
+<meta property="og:title" content="Fully_Connected_Layer - AbdielNie&#39;s blog">
 <meta property="og:description"
-  content="I&amp;rsquo;m Liangyu Nie, Year 3 bachelor of computer science student at RMIT University
-  🔭 I’m currently working on - GCN &#43; Transformer music to dance.  📫 How to reach me: Email me: abdielnie@gmail.com  Github Stats: Most Language I used 
-Nice to meet you! " />
-<meta property="og:url" content="https://abdielnie.github.io/readme/" />
-<meta property="og:site_name" content="" />
+  content="Fully Connected Layer全连接层 全连接层一般在卷积神经网络最后，它会将神经网络输出的二维特征转为一维向量 举例： 输入一个28×28的灰度图像 经过了convolution layer和pooling之后输出20个12×12的图像
+如果将这20个12×12的图像放入全连接层 就会变成一个1×100的一维向量
+全连接层的作用： 在整个卷积神经网络中是一个filter，将学到的特征表示映射到样本的标记空间中，高度提取特征 方便最后的filter和回归 全连接的缺点： 参数亢余会导致降低训练速度，容易overfit" />
+<meta property="og:url" content="https://abdielnie.github.io/post/fully_connected_layer/" />
+<meta property="og:site_name" content="Fully_Connected_Layer" />
 <meta property="og:image"
   content="https://abdielnie.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2021-03-30 20:30:20 &#43;1100 AEDT" />
 
 
 
@@ -145,18 +147,18 @@ Nice to meet you! " />
                   <span class="author">
                     <a href="https://abdielnie.github.io/">AbdielNie</a></span><span
                     class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
-                      href="https://abdielnie.github.io/readme/"></a></strong>
+                      href="https://abdielnie.github.io/post/fully_connected_layer/">Fully_Connected_Layer</a></strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Mon, 01 Jan 0001 00:00:00 &#43;0000"
+                  Created <relative-time datetime="Tue, 30 Mar 2021 20:30:20 &#43;1100"
                     class="no-wrap">
-                    Mon, 01 Jan 0001 00:00:00 &#43;0000</relative-time>
+                    Tue, 30 Mar 2021 20:30:20 &#43;1100</relative-time>
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Mon, 01 Jan 0001 00:00:00 &#43;0000"
+                  Modified <relative-time datetime="Tue, 30 Mar 2021 20:47:21 &#43;1100"
                     class="no-wrap">
-                    Mon, 01 Jan 0001 00:00:00 &#43;0000</relative-time>
+                    Tue, 30 Mar 2021 20:47:21 &#43;1100</relative-time>
                   
                 </div>
               </div>
@@ -174,7 +176,7 @@ Nice to meet you! " />
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    45 Words
+                    241 Words
                     
 
                   </div>
@@ -186,22 +188,13 @@ Nice to meet you! " />
 
 
               <div class="Box-body px-5 pb-5">
-                <article class="markdown-body entry-content container-lg"><p>I&rsquo;m Liangyu Nie, Year 3 bachelor of computer science student at RMIT University</p>
-<ul>
-<li>
-<p>🔭 I’m currently working on <!-- raw HTML omitted --> 
-- GCN + Transformer music to dance.<!-- raw HTML omitted --></p>
-</li>
-<li>
-<p>📫 How to reach me: <!-- raw HTML omitted -->
-Email me: <a href="mailto:abdielnie@gmail.com">abdielnie@gmail.com</a><!-- raw HTML omitted --></p>
-</li>
-</ul>
-<h4 id="github-stats">Github Stats:</h4>
-<p><img src="https://github-readme-stats.vercel.app/api?username=abdielnie&amp;show_icons=true&amp;theme=radical" alt="Anurag&rsquo;s github stats"></p>
-<h4 id="most-language-i-used">Most Language I used</h4>
-<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdielnie&amp;theme=radical" alt="Top Langs"></a></p>
-<h3 id="nice-to-meet-you">Nice to meet you!</h3>
+                <article class="markdown-body entry-content container-lg"><h1 id="fully-connected-layer全连接层">Fully Connected Layer全连接层</h1>
+<p>全连接层一般在卷积神经网络最后，它会将神经网络输出的二维特征转为一维向量
+举例：
+输入一个28×28的灰度图像 经过了convolution layer和pooling之后输出20个12×12的图像</p>
+<p>如果将这20个12×12的图像放入全连接层 就会变成一个1×100的一维向量</p>
+<p>全连接层的作用： 在整个卷积神经网络中是一个filter，将学到的特征表示映射到样本的标记空间中，高度提取特征 方便最后的filter和回归
+全连接的缺点： 参数亢余会导致降低训练速度，容易overfit</p>
 </article>
               </div>
             </div>

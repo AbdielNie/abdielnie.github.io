@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AbdielNie&#39;s blog</title>
-    <link>https://abdielnie.github.io/</link>
-    <description>Recent content on AbdielNie&#39;s blog</description>
+    <title>Posts on AbdielNie&#39;s blog</title>
+    <link>https://abdielnie.github.io/post/</link>
+    <description>Recent content in Posts on AbdielNie&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 30 Mar 2021 20:30:20 +1100</lastBuildDate><atom:link href="https://abdielnie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 20:30:20 +1100</lastBuildDate><atom:link href="https://abdielnie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fully_Connected_Layer</title>
       <link>https://abdielnie.github.io/post/fully_connected_layer/</link>
@@ -16,17 +16,6 @@
       <description>Fully Connected Layer全连接层 全连接层一般在卷积神经网络最后，它会将神经网络输出的二维特征转为一维向量 举例： 输入一个28×28的灰度图像 经过了convolution layer和pooling之后输出20个12×12的图像
 如果将这20个12×12的图像放入全连接层 就会变成一个1×100的一维向量
 全连接层的作用： 在整个卷积神经网络中是一个filter，将学到的特征表示映射到样本的标记空间中，高度提取特征 方便最后的filter和回归 全连接的缺点： 参数亢余会导致降低训练速度，容易overfit</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://abdielnie.github.io/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abdielnie.github.io/readme/</guid>
-      <description>I&amp;rsquo;m Liangyu Nie, Year 3 bachelor of computer science student at RMIT University
-  🔭 I’m currently working on - GCN + Transformer music to dance.  📫 How to reach me: Email me: abdielnie@gmail.com  Github Stats: Most Language I used 
-Nice to meet you! </description>
     </item>
     
   </channel>
