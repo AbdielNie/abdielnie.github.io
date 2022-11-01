@@ -20,7 +20,7 @@ layout: default
               {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}selected
               {% endif %}
 
               {% include figure.html 
@@ -44,10 +44,10 @@ layout: default
           <!-- News -->
           {%- include news.html %}
           {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
+    <!--      {% if page.selected_papers -%}
+            Selected papers 
             {%- include selected_papers.html %}
-          {%- endif %}
+          {%- endif %} -->
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
