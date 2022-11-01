@@ -11,11 +11,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master
+    - title: Master of Advanced Computer Science
       institution: University of Birmingham
       year: 2023(expect)
 
-    - title: Bachelor
+    - title: Bachelor of Computer Science
       institution: RMIT University 
       year: 2021
       description:
