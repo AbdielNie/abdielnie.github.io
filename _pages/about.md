@@ -20,4 +20,5 @@ My name is 聂良玉(Liangyu Nie), I'm currently a Master of advanced computer s
 
 I am interested in natural language processing. More specifically (yet still vague), I am interested in the following Qs:
 
-1. How 
+1. How language models learn knowledge efficiently？
+2. 
