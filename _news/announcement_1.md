@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-04-20 15:59:00-0400
+date: 2023-03-03 11:59:00-0400
 inline: true
 ---
 
-I will join the [LanguageX lab](https://www.wenpengyin.org/languagex-lab) as an research intern!:sparkles:
+A paper about rebustness of Task Instructions released on [arxiv](https://arxiv.org/abs/2212.03813)

@@ -22,3 +22,4 @@ I am interested in natural language processing. More specifically (yet still vag
 
 1. How language models learn knowledge efficiently？
 2. How do we build efficient (data- and computing-) models that can answer "complex and compositional" questions, and questions with non-definite answer formats in the real world? 
+3. How models can better solve multi-step problems？
