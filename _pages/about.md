@@ -11,6 +11,7 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>abdielnie@gmail.com</p>
+    <The limits of my language means the limits of my world not models'>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,4 +23,3 @@ I am interested in natural language processing. More specifically (yet still vag
 
 1. How language models learn knowledge efficiently？
 2. How do we build efficient (data- and computing-) models that can answer "complex and compositional" questions, and questions with non-definite answer formats in the real world? 
-3. How models can better solve multi-step problems？
