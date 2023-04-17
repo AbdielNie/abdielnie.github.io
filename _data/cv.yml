@@ -6,14 +6,18 @@
     - name: Date of Birth
       value: 27th June 2000
     - name: Languages
-      value: Chinese,English
+      value: English,Chinese
 
 - title: Education
   type: time_table
   contents:
+    - title: PhD in Computer Science
+      institution: University of Texas at Dallas
+      year: 2023-2028(expect)
+
     - title: Master of Advanced Computer Science
       institution: University of Birmingham
-      year: 2023(expect)
+      year: 2022-2023(expect)
 
     - title: Bachelor of Computer Science
       institution: RMIT University 
