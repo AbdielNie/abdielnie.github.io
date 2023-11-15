@@ -20,8 +20,6 @@ Hello, my name is 聂良玉 (Niè liáng yù), and I am currently a first-year P
 
 Feel free to reach out if you'd like to [chat](mailto:Liangyu.Nie@UTDallas.edu) :)
 
-I am interested in natural language processing. More specifically (yet still vague), I am interested in the following questions:
+I am interested in natural language processing. More specifically NLP for Science(Material Discovery, Drug Discovery, Psychology etc.)
 
-1. How do we build efficient (data- and computing-) models that can answer "complex and compositional" questions, and questions with non-definite answer formats in the real world? 
-2. How are large language models applied in the scientific field?
-3. How to balance the capabilities of large language models?
+
